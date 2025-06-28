@@ -10,7 +10,7 @@ import { Plus, TrendingUp, Target, Brain } from 'lucide-react';
 import { Skill } from '@/types';
 
 const Skills: React.FC = () => {
-  const [skills, setSkills] = useState<Skill[]>([
+  const [skills] = useState<Skill[]>([
     {
       id: '1',
       name: 'JavaScript',
@@ -61,7 +61,7 @@ const Skills: React.FC = () => {
     }
   ]);
 
-  const [targetRole, setTargetRole] = useState('Full Stack Developer');
+  const [targetRole] = useState('Full Stack Developer');
 
   const getLevelColor = (level: string) => {
     switch (level) {
