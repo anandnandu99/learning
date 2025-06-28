@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { DivideIcon as LucideIcon } from 'lucide-react';
+import { LucideIcon, DivideIcon as LucideIcon } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 interface StatsCardProps {
